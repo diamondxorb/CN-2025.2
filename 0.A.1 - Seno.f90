@@ -19,4 +19,6 @@ program cncn
 
     end do
 
+    close(127)
+
 end program cncn
