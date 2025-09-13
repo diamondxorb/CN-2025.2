@@ -1,4 +1,4 @@
-program  cncn
+program arcoseno
     implicit none
     
     integer :: i
@@ -23,4 +23,4 @@ program  cncn
 
     close(128)
 
-end program  cncn
+end program arcoseno
