@@ -1,3 +1,5 @@
+# Questão A.2
+
 > A. Considere o processo iterativo x(n+1) = ax(n) + b, com a, b ∈ IR.
 >
 > 2. Ainda para o caso b = 0, identifique todos os 7 casos relevantes para os valores constante
@@ -32,8 +34,9 @@ end program linear
 # Análise dos casos
 
 ### 1. a = 0
-![Caso1](/home/helen/Códigos/caso1.png)
-Independente de x0x0​, a sequência converge imediatamente para 0.
+<img width="640" height="480" alt="caso1" src="https://github.com/user-attachments/assets/88780179-0d65-4dba-8283-aecb8bca4ae9" />
+
+Independente de x(0), a sequência converge imediatamente para 0.
 
 - Estabilidade: Superestável
 
@@ -47,7 +50,7 @@ A sequência decai exponencialmente para 0.
 
 ### 3. a = 1
 ![Caso3](/home/helen/Códigos/caso3.png)
-Todos os pontos são fixos. A sequência permanece em x0x0​.
+Todos os pontos são fixos. A sequência permanece em x(0).
 
 - Estabilidade: Neutro
 
@@ -68,7 +71,7 @@ A sequência oscila com amplitude decrescente e converge para 0.
 
 ### 6. a = -1
 ![Caso6](/home/helen/Códigos/caso6.png)
-A sequência oscila entre x0x0​ e −x0−x0​ indefinidamente.
+A sequência oscila entre x(0)​ e −x(0)​ indefinidamente.
 
 - Estabilidade: Neutro
 
