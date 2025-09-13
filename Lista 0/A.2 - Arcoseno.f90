@@ -10,7 +10,6 @@ program  cncn
         read(127, *) x(i), seno(i)
         arcsen(i) = asin(seno(i))
         diferenca(i) = abs(arcsen(i)-x(i))
-        write(*,*) x(i), seno(i), arcsen(i), diferenca(i)
 
     end do
 
