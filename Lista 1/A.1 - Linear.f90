@@ -1,4 +1,4 @@
-program cncn
+program linear
     implicit none
 
     integer :: n
@@ -18,4 +18,4 @@ program cncn
     
     close(127)
 
-end program cncn
+end program linear
