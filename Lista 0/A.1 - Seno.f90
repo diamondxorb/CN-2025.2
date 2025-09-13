@@ -1,4 +1,4 @@
-program aula
+program senoo
     implicit none
     
     integer :: i
@@ -21,4 +21,4 @@ program aula
 
     close(127)
 
-end program aula
+end program senoo
